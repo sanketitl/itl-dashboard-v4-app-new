@@ -1,0 +1,30 @@
+{
+    "authors": [
+        {
+            "name": "ITL"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "vlucas/phpdotenv": "^5.6",
+        "php-amqplib/php-amqplib": "^2.8",
+        "phpmailer/phpmailer": "^6.9",
+        "monolog/monolog": "^3.5",
+        "firebase/php-jwt": "^6.10",
+        "illuminate/database": "^10.43",
+        "illuminate/events": "^10.43",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": 
+    {
+        "psr-4": {
+            "ITL\\": "app/"
+        },
+        "files":["app/Config/Database.php"],
+        "classmap":["app/Models"]
+
+    },
+    "require-dev": {
+        "mp091689/dump-die": "^1.0"
+    }
+}
